@@ -1,0 +1,141 @@
+.formBox {
+  padding: 80px 0;
+
+  & .section {
+    background: #0a5a7dc7;
+    border-radius: 24px;
+    padding: 32px 42px;
+    color: #fff;
+
+    & > h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    & > p {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    & .content {
+      padding-top: 32px;
+      border-top: 1px solid #fff;
+      display: flex;
+      justify-content: space-evenly;
+
+      & form {
+        width: 40%;
+        padding: 32px;
+        border: 1px solid #ffffff97;
+        border-radius: 10px;
+
+        & > div {
+          display: flex;
+          align-items: center;
+          margin-bottom: 10px;
+          justify-content: space-between;
+
+          & > input {
+            width: 49%;
+          }
+        }
+
+        & h2 {
+          margin-bottom: 10px;
+        }
+
+        & input {
+          width: 100%;
+          border-radius: 10px;
+          border: none;
+          padding: 10px 20px;
+          transition: 0.3s;
+
+          &:focus {
+            outline: transparent;
+            box-shadow: 0 0 10px#0d77a4;
+          }
+
+          &::placeholder {
+            color: gray;
+          }
+        }
+
+        & button {
+          cursor: pointer;
+          border: none;
+          margin-top: 20px;
+          width: 100%;
+          padding: 10px 0;
+          background: #fad800;
+          border-radius: 10px;
+        }
+      }
+
+      & .description {
+        width: 40%;
+        padding: 32px;
+        border: 1px solid #ffffff97;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & h2 {
+          margin-bottom: 10px;
+        }
+
+        & p {
+          &:not(:last-child) {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*smartphone*/
+@media (max-width: 480px) {
+}
+
+@media (max-width: 320px) {
+}
+
+/*tablets*/
+@media (max-width: 768px) {
+  .section {
+    text-align: center;
+    & > p {
+      font-size: 25px !important;
+    }
+  }
+
+  .content {
+    display: block !important;
+
+    & form {
+      width: 100% !important;
+      margin-bottom: 20px;
+
+      & div {
+        display: block !important;
+        & input {
+          display: block;
+          width: 100% !important;
+          &:first-child {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    & .description {
+      width: 100% !important;
+    }
+  }
+}
+
+/*netbook*/
+@media (max-width: 1024px) {
+}

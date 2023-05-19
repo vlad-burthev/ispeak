@@ -1,0 +1,59 @@
+.header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffffdb;
+
+  & .section {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .logo {
+      display: flex;
+      align-items: center;
+      color: blue;
+    }
+    & img {
+      width: 50px;
+      overflow: hidden;
+      margin-right: 10px;
+    }
+  }
+}
+
+/*smartphone*/
+@media (max-width: 480px) {
+}
+
+@media (max-width: 320px) {
+}
+
+/*tablets*/
+@media (max-width: 768px) {
+  .logo {
+    display: flex;
+    align-items: center;
+    color: blue;
+
+    & img {
+      width: 50px !important;
+      overflow: visible !important;
+    }
+
+    & span {
+      display: none;
+    }
+  }
+}
+
+/*netbook*/
+@media (max-width: 1024px) {
+}
+
+/*computer*/
+@media (max-width: 1280px) {
+}

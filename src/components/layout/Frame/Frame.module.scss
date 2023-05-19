@@ -1,0 +1,13 @@
+.frame {
+  padding: 100px 0 100px 0;
+  background-color: rgba(43, 43, 102, 0.818);
+  color: #fbe9e9;
+
+  & h2 {
+    margin-bottom: 50px;
+  }
+
+  & .titleList {
+    font-size: 18px;
+  }
+}

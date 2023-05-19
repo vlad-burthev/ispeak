@@ -1,0 +1,15 @@
+@import "./style/device-width";
+@import "./style/reset";
+
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Raleway:wght@500;600;800&display=swap");
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Raleway', sans-serif;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,94 @@
+.firstScreen {
+  background-image: url(../../../../public/img/firstScreen/firstScreen-bg.png);
+  padding: 120px 0 107px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+
+  & .frame {
+    position: absolute;
+    display: block;
+    font-size: 34px;
+    margin-top: 40px;
+    color: #fff;
+    bottom: -50px;
+    background-color: rgb(255, 145, 0);
+    padding: 10px 40px;
+    border-radius: 10px;
+
+    & .fullPrice {
+      text-align: center;
+      display: block;
+      color: rgb(255, 206, 255);
+      font-size: 20px;
+    }
+  }
+
+  & .section {
+    max-width: 610px;
+
+    & .title {
+      font-weight: 500;
+      font-size: 65px;
+      line-height: 72px;
+      color: #fff;
+      margin-bottom: 23px;
+      font-family: "Raleway", sans-serif;
+    }
+
+    & .subTitle {
+      font-weight: 400;
+      font-size: 31px;
+      line-height: 42px;
+
+      letter-spacing: -0.05px;
+
+      color: rgba(255, 255, 255, 0.68);
+    }
+  }
+}
+
+/*smartphone*/
+@media (max-width: 480px) {
+  .firstScreen {
+    background-size: contain;
+    background-attachment: fixed;
+    background-image: url(../../../../public/img/firstScreen/mob.png) !important;
+  }
+}
+
+@media (max-width: 320px) {
+}
+
+/*tablets*/
+@media (max-width: 768px) {
+  .frame {
+    font-size: 20px !important;
+    margin-top: 40px;
+    left: 10px;
+    right: 10px;
+    color: blue;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    .fullPrice {
+      display: block;
+      color: rgba(0, 0, 255, 0.856);
+      font-size: 15px !important;
+    }
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 40px !important;
+    line-height: 50px !important;
+    color: #fff;
+    margin-bottom: 23px;
+    font-family: "Raleway", sans-serif;
+  }
+}
+/*netbook*/
+@media (max-width: 1024px) {
+}

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ispeak/static/css/main.c85b0f94.css",
+    "main.js": "/ispeak/static/js/main.8bfdb142.js",
+    "static/media/firstScreen-bg.png": "/ispeak/static/media/firstScreen-bg.a065d03c0f96ad8e0cae.png",
+    "static/media/mob.png": "/ispeak/static/media/mob.87a2d6339cd9c7147057.png",
+    "index.html": "/ispeak/index.html",
+    "main.c85b0f94.css.map": "/ispeak/static/css/main.c85b0f94.css.map",
+    "main.8bfdb142.js.map": "/ispeak/static/js/main.8bfdb142.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c85b0f94.css",
+    "static/js/main.8bfdb142.js"
+  ]
+}
